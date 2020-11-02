@@ -20,6 +20,6 @@ steps:
     location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: 'PolicyExample/azuredeploy.json'
-    overrideParameters: '-policyDefinitionID /providers/Microsoft.Authorization/policyDefinitions/0a914e76-4921-4c19-b460-a2d36003525a'
+    overrideParameters: '-policyDefinitionID /providers/Microsoft.Authorization/policyDefinitions/06a78e20-9358-41c9-923c-fb736d382a4d'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
